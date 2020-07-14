@@ -6,4 +6,4 @@ from . import algorithms
 from . import datasets
 
 
-__version__ = '0.3-git'
+__version__ = '0.4.0'
