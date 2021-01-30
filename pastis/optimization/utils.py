@@ -10,10 +10,10 @@ class ConstantDispersion(object):
     def fit(self, X, y):
         return self
 
-    def predict(self, X):
+    def predict(self, X, bias=None):
         return self.coef * np.ones(X.shape)
 
-    def derivate(self, X):
+    def derivate(self, X, bias=None):
         return np.zeros(X.shape)
 
 
